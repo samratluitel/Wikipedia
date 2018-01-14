@@ -1,0 +1,62 @@
+body{
+    background: url("http://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1122px-Wikipedia-logo-v2.svg.png");
+    background-repeat: no-repeat;
+    background-position-x: 100px;
+    font-family: 'Arimo', sans-serif;
+}
+#search-box{
+    width:500px;
+    margin: 0 auto;
+    padding-top: 40vh;
+    margin-bottom: 30px;
+}
+.error{
+    margin: 0 auto;
+    padding-top:10px;
+    font-weight: bold;
+    font-size:30px;
+}
+
+.article{
+    display: flex;
+    background-color: #E6E6E7;
+    min-height:100px;
+    margin: 10px;
+}
+#body-container{
+    margin: 0 10%;
+}
+.side-bar{
+    display: none;
+    background-color: #D8753D;
+    position: relative;
+    left:-1%;
+    width: 10px;
+}
+.article-header{
+    display:block;
+    padding-left:55px;
+    padding-top :10px;
+    font-weight: bold;
+    font-size:20px;
+}
+.snippet{
+    padding-left:55px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media(max-width:529px){
+    #search-box{
+        margin: 1;
+        width: 100%;
+    }
+    .side-bar{
+        width: 30px;
+    }
+    .article-header{
+        padding-left: 25px;
+    }
+    .snippet{
+        padding-left: 25px;
+    }
+}
